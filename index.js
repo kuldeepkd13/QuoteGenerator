@@ -9,6 +9,10 @@ app.use(cors());
 
 const apiKey = process.env.OPENAI_API_KEY;
 
+app.get("/",(req,res)=>{
+  res.send("QuoteGenerator")
+})
+
 app.get('/quote/:word', async (req, res) => {
   try {
     const { word } = req.params;
