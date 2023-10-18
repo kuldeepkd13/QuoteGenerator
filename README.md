@@ -1,1 +1,1 @@
-# QuoteGenerator App
+# QuoteGenerator
